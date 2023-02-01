@@ -1,4 +1,4 @@
-import classes from '../components/Footer.module.css';
+import classes from 'src/components/Footer/Footer.module.css';
 
 export function Footer() {
   return (
@@ -12,7 +12,5 @@ export function Footer() {
           <img src="/vercel.svg" alt="Vercel" className={classes.logo} />
         </a>
       </footer>
-
-      
   );
 }
